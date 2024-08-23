@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+h1{
+    font-family: "Rowdies";
+}
+
+
+.my-card{
+
+    max-width: 400px;
+}
+
+
+#app{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex-grow: 1;
+    
+}
+
+
+a,
+.nav-link{
+    &:hover{
+        text-decoration: underline;
+        color: coral;
+    }
+}
+
+.text-blue{
+    color:#18475D;
+}
+.shadow{
+    filter:drop-shadow(1px 1px 2px grey)
+}
+
+.my-logo{
+    width: 100px;
+}
+
+a,
+.dropdown-item{
+    &:hover{
+        text-decoration: underline;
+        color: coral;
+    }
+}
+
+.my-card-description{
+    height: 100px;
+    overflow-y: scroll;
+    border-top: 1px solid rgba(78, 78, 78, 0.541);
+    border-bottom: 1px solid rgba(78, 78, 78, 0.651);
+}
+
+
+.my-card-img{
+    max-width: 400px;
+}
+
+.my-card-notes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;    
+    position: relative;
+    color: coral;
+    cursor: default;
+    .my-notes{
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: coral;
+        border: 1px solid black;
+        border-radius: 18px;
+        padding: 30px 10px;
+        max-height: 300px;
+        overflow-y: scroll;
+        scrollbar-width: none;
+        &::-webkit-scrollbar{
+            display: none;
+        }
+    }
+    .my-edit-textarea{
+        width: 100%;
+        background-color: coral;
+        color: currentColor;
+        border: none;
+        border-color: white;
+    }
+    .my-edit-notes{
+        color: coral;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}

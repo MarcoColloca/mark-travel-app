@@ -1,0 +1,15 @@
+Produzione
+
+<?php
+
+return [
+    'credentials' => json_decode(env('FIREBASE_CREDENTIALS'), true),
+];
+
+
+
+Sviluppo
+
+return [
+    'credentials' => base_path(env('FIREBASE_CREDENTIALS_PATH', 'firebase-credentials.json')),
+];

@@ -1,0 +1,22 @@
+{
+    "trips": [
+        {
+            "name": "Tour delle Alpi",
+            "slug": "tour-delle-alpi",
+            "cover": "cover-alpi.jpg",
+            "description": "Un tour mozzafiato attraverso le maestose Alpi, con visite a pittoreschi villaggi e panorami indimenticabili.",
+            "notes": "Portare abbigliamento adatto per il freddo.",
+            "startDate": "2024-09-01",
+            "endDate": "2024-09-07"
+        },
+        {
+            "name": "Viaggio in Toscana",
+            "slug": "viaggio-in-toscana",
+            "cover": "cover-toscana.jpg",
+            "description": "Esplora le colline toscane, visita le cantine di vino e scopri la storia e la cultura di Firenze e Siena.",
+            "notes": "Prenotare in anticipo le camere degli Hotel.",
+            "startDate": "2024-10-05",
+            "endDate": "2024-10-08"
+        }
+    ]
+}
